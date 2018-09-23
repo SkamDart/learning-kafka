@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44898bf7-c307-4191-a22b-88afc8de1874" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,53 +22,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2866" />
+          <entry key="java" value="5026" />
           <entry key="xml" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2866" />
+          <entry key="JAVA" value="5026" />
           <entry key="XML" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ProducerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#893#909#0" expanded="true" />
-                <element signature="e#1041#1057#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ProducerDemoWithCallback.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,21 +55,32 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#929#945#0" expanded="true" />
                 <element signature="e#789#805#0" expanded="true" />
-                <element signature="e#1362#2086#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ThreadedConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="705">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1148#1164#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +104,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ProducerDemoWithCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerGroupsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ThreadedConsumerDemo.java" />
       </list>
     </option>
   </component>
@@ -201,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerDemo">
+  <component name="RunManager" selected="Application.ThreadedConsumerDemo">
     <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.skamdart.kafka.ConsumerDemo" />
       <module name="intro" />
@@ -241,13 +230,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadedConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.skamdart.kafka.ThreadedConsumerDemo" />
+      <module name="intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.skamdart.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ProducerDemo" />
       <item itemvalue="Application.ProducerDemoWithCallback" />
       <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.ThreadedConsumerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadedConsumerDemo" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
@@ -264,6 +268,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1339" extended-state="0" />
     <editor active="true" />
@@ -271,19 +284,19 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Learn" weight="0.32956383" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18578352" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18578352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329591" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3287891" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38973537" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21251002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287891" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Maven Projects" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -326,19 +339,38 @@
             <element signature="imports" expanded="true" />
             <element signature="e#929#945#0" expanded="true" />
             <element signature="e#789#805#0" expanded="true" />
-            <element signature="e#1362#2086#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerGroupsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1148#1164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/skamdart/kafka/ThreadedConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>

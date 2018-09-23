@@ -1,4 +1,5 @@
 package com.github.skamdart.kafka;
+
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -11,12 +12,12 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerGroupsDemo {
     public static void main(String[] args) {
-        final Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
+        final Logger logger = LoggerFactory.getLogger(ConsumerGroupsDemo.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my_kafka_app";
+        String groupId = "test_group_app";
         String topic = "first_topic";
 
         Properties props = new Properties();
@@ -38,9 +39,9 @@ public class ConsumerDemo {
 
             for (ConsumerRecord<String, String> record : records) {
                 logger.info("Key: " + record.key() + "\n" +
-                                "Value: " + record.value() + "\n" +
-                                "Partition: " + record.partition() + "\n"
-                            );
+                        "Value: " + record.value() + "\n" +
+                        "Partition: " + record.partition() + "\n"
+                );
             }
         }
     }
